@@ -1,0 +1,12 @@
+﻿{
+  "name": "メルカリ通報支援拡張",
+  "description": "商品一覧ページに通報ボタンの設置、自動文言入力・自動通報ボタンクリック・自動ウィンドウクローズ",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "run_at": "document_end",
+    "matches": ["https://www.mercari.com/jp/*"],
+    "js": ["jquery-2.2.0.min.js", "content_script.js"],
+    "all_frames": true
+  }]
+}

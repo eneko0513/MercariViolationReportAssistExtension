@@ -1,0 +1,2 @@
+# MercariViolationReportAssistExtension
+ メルカリの商品一覧ページに通報ボタンを追加し、通報を簡易化する。
