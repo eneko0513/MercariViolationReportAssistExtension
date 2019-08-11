@@ -41,10 +41,7 @@ $('.report').click(function() {
 		$(tempWindow.document).find('.contact-big-textarea').css('height', '35px');
 		
 		if(autoSubmitClose){
-			// ↓自動で「送信する」ボタンをクリックする場合はコメントアウトを外して下さい
 			$(tempWindow.document).find('button[type="submit"]').trigger('click');
-			
-			// ↓自動で通報が終わったあとにウィンドウを閉じる場合はコメントアウトを外して下さい
 			console.log(tempHref + ' : 通報完了');
 			this.close();
 		}
